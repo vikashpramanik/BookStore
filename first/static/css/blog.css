@@ -1,0 +1,106 @@
+#img1{
+    height: 500px;
+    width: 500px;
+
+  
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+#luffy{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.for-img{
+    display: flex;
+    justify-content: center;
+}
+
+.para1{
+    display: flex;
+    justify-content: center;
+}
+
+#section2{
+    height: 300px; 
+   
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.first-box-img{
+    margin: 20px;
+    display: flex;
+   
+   
+
+}
+
+.img2{
+    border-radius: 20px;
+
+    height: 250px;
+
+}
+.input1{
+    
+width: 400px;
+}
+
+#button1{
+    margin-top: 20px;
+width: 200px;
+height: 30px;
+margin-right: 10px;
+border-radius: 10px;
+background-color: #f86d72;
+color: white;
+
+}
+
+#button2{
+    margin-top: 20px;
+
+height: 30px;
+width: 100px;
+border-radius: 10px;
+
+
+}
+#para2{
+    font-size: 0.85rem;
+    
+    
+}
+
+.para-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button3{
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #f86d72;
+color: white;
+}
+
+.para3{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.para4{
+    font-size: 0.85rem;
+}
+.anchor{
+    text-decoration: none;
+    color: #272727;
+}

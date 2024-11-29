@@ -1,0 +1,189 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/cart.css' %}">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row" style="height: 50px;background-color: white;">
+      <div class="col-md-6 ">
+        <div style="margin-top: 20px;">
+          <b>From Saved Address</b>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div style="display: flex;justify-content: flex-end;">
+          <button style="margin-top: 20px;">Enter Delivery pincode</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row" id="first-item">
+      <div class="col-md-6 ">
+        <div style="display: flex;">
+          <img src="/static/img/yourname.jpg" alt="" id="img1">
+          <div style="margin-top: 20px;">
+            <span class="span1">A Silent Voice Volume 3 </span>
+            <p>English,paperback,unknown</p>
+            <br>
+            <a href="" class="prize">240$</a>
+            <div style="display: flex;margin-top: 40px;">
+              <a href="" class="save-remove"><b>SAVE FOR LATER</b></a>
+              <a href="" class="save-remove" style="margin-left: 20px;"><b>REMOVE</b></a>
+            </div>
+          </div>
+         
+        </div>
+        <div >
+          <button id="btn1">-</button>
+          <button style="width: 55px;" id="btn1">1</button>
+          <button id="btn1">+</button>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <span style="display:flex;justify-content: flex-end;margin-top: 20px;">Delivery by Mon Octobar 7 | Free</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="first-item">
+      <div class="col-md-6 ">
+        <div style="display: flex;">
+          <img src="/static/img/mrwrong.jpg" alt="" id="img1">
+          <div style="margin-top: 20px;">
+            <span class="span1">Mr Wrong Number </span>
+            <p>English,paperback,unknown</p>
+            <br>
+            <a href="" class="prize">240$</a>
+            <div style="display: flex;margin-top: 40px;">
+              <a href="" class="save-remove"><b>SAVE FOR LATER</b></a>
+              <a href="" class="save-remove" style="margin-left: 20px;"><b>REMOVE</b></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button  id="btn1">-</button>
+          <button style="width: 55px;"   id="btn1">1</button>
+          <button  id="btn1">+</button>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <span style="display:flex;justify-content: flex-end;margin-top: 20px;">Delivery by Mon Octobar 7 | Free</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="first-item">
+      <div class="col-md-6 ">
+        <div style="display: flex;">
+          <img src="/static/img/underoneroof.jpg" alt="" id="img1">
+          <div style="margin-top: 20px;">
+            <span class="span1">Under One Roof </span>
+            <p>English,paperback,unknown</p>
+            <br>
+            <a href="" class="prize">240$</a>
+            <div style="display: flex;margin-top: 40px;">
+              <a href="" class="save-remove"><b>SAVE FOR LATER</b></a>
+              <a href="" class="save-remove" style="margin-left: 20px;"><b>REMOVE</b></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button id="btn1">-</button>
+          <button style="width: 55px;" id="btn1">1</button>
+          <button id="btn1">+</button>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <span style="display:flex;justify-content: flex-end;margin-top: 20px;">Delivery by Mon Octobar 7 | Free</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" style="height: 100px;margin-top: 20px;">
+      <div class="col-md-6"></div>
+      <div class="col-md-6" style="display: flex;justify-content: flex-end;align-items: center;">
+        <div>
+          <button id="order-button">PLACE ORDER</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer style="margin-top: 250px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 ">
+                <div>
+                    <img src="/static/img/main-logo.png" alt="" height="100px" style="padding: 20px;"><br>
+                    <p style="height: 200px ;padding:20px ;">Bookly is your ultimate online bookstore, offering a vast selection of books across all genres. With easy navigation and personalized recommendations.</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div >
+                    <p style="font-size: 2rem;">Quick Links</p><br>
+                    <a href="{% url 'home' %}" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Home</a><br>
+                    <a href="{% url 'about' %}" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">About</a><br>
+                    <a href="{% url 'blog' %}" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Blogs</a><br>
+                    <a href="{% url 'shop' %}" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Shop</a><br>
+                    <a href="{% url 'contact' %}" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Contact</a><br>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div >
+                    <p style="font-size: 2rem;">Help and Info Help</p><br>
+                    <a href="" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Track Your Order</a><br>
+                    <a href="" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Shiping and delivery</a><br>
+                    <a href="{% url 'contact' %}" class="anchor" id="navlink"  style="text-decoration: none;color: #272727;">Contact Us</a><br>
+                    <a href="" class="anchor" id="navlink" style="text-decoration: none;color: #272727;">Faqs</a><br>
+
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div >
+                    <p style="font-size: 2rem;">Contact Us</p>
+                    <p>Do you Have Any Queries or suggestion?</p>
+
+                    <a href="" class="">rahulgope2712@gmail.com</a>
+                    <p>if You Need Support Then Just Give us a call</p>
+                    <a href="" class="">+916200463510</a><br>
+                    <a href="" class="anchor">Contact Us</a><br>
+                    <a href="" class="anchor">Faqs</a><br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row" style="height: 30px;">
+            <div class="col-md-6 "></div>
+            <div class="col-md-6 ">
+                <a href="" style="text-decoration: none;">© Copyright 2024 Bookly. Copy karne ka sochna bhi mat</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

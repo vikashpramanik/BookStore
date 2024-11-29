@@ -1,0 +1,55 @@
+#img1{
+    height: 200px;
+    padding: 20px;
+
+}
+
+
+#first-item{
+    height:250px ;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+#first-item:hover{
+    box-shadow: 0px 0px 2px 2px black;
+}
+#order-button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #f86d72;
+
+       
+  
+}
+
+.save-remove{
+    text-decoration: none;
+}
+
+
+.prize{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:  #f86d72;
+
+}
+
+
+
+#btn1{
+    border-radius: 20px;
+    margin-left: 10px;
+ 
+    background-color: white;
+   
+
+}
+.span1{
+    
+    font-weight: 500;
+}

@@ -1,0 +1,51 @@
+#logo1{
+    height: 100%;
+    padding: 50px;
+}
+.items{
+    margin-top: 50px;
+    
+    
+}
+
+.log-button{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+button{
+    width: 300px;
+    border-radius: 20px;
+    background-color: #f86d72;
+    box-shadow: color(#f86d72);
+}
+.log-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.place-hold {
+    width: 300px;
+    border-radius: 5px;
+    
+}
+
+.inside-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.log-iteams{
+    height: 400px;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+    
+    
+}

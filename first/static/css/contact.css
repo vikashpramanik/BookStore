@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.div1 {
+    height: 720px;
+    width: 100%;
+    margin-top: 50px;
+
+
+    border-radius: 20px;
+    background-image: url("/static/img/9693994.jpg");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 3px 3px black;
+
+
+
+}
+
+.div2 {
+    height: 400px;
+    width: 70%;
+   
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+.inner-iteams {
+    margin-left: 200px;
+    color: #dadade;
+}
+
+.Header {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.inner-input {
+    margin-top: 10px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+}
+.inner-input::placeholder{
+    color: black;
+ 
+}
+
+.inner-input2 {
+    margin-top: 10px;
+    background-color:#4736ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+   
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    
+}
+.inner-input2::placeholder{
+    color: white;
+}
+
+.inner-span {
+    color: #dadade;
+    padding: 30px;
+    font-size: 0.85rem;
+}
+
+input{
+    margin-left: 100px;
+}
+
+.button1{
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #4736ea;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2{
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.anchor{
+    text-decoration: none;
+    color: #272727;
+}

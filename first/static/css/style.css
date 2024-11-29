@@ -1,0 +1,135 @@
+
+
+.col-md-4{
+    background-color: #272727;
+}
+#Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#paragraph{
+    font-family: sans-serif;
+}
+.nav{
+    margin: 40px;
+}
+#bodybg{
+    background-image: url(banner-image-bg.jpg);
+    height: 800px;
+}
+#billboard{
+    background-image:url(banner-image-bg.jpg) ;
+    height: 800px;
+
+}
+#cate{
+    
+    height: 356px;
+    width: 174px;
+}
+#cate2{
+   
+    height: 356px;
+    width: 174px;
+}
+#cate3{
+    
+    height: 356px;
+    width: 174px;
+}
+.card{
+    margin-left: 100px;
+}
+.button1{
+    width: 200px;
+   
+    border-radius: 30px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #f86d72;
+    box-shadow: black;
+
+  
+}
+.button1:hover{
+    background-color:#272727 ;
+}
+.anchor{
+    text-decoration: none;
+    color: #272727;
+}
+#navlink{
+    color: #272727;
+    
+}
+#navlink:hover{
+    color: #f86d72;
+}
+#navlink1{
+    color: #f86d72;
+}
+#navlink2{
+    text-decoration: none;
+    color: #272727;
+    font-weight:530;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+}
+#navlink2:hover{
+    color: #f86d72;
+}
+
+#icons{
+    font-size: 1.5rem;
+}
+
+#icons:hover{
+    color: #f86d72;
+
+}
+#first-head{
+    /* font-size: 3.5rem;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 10px #272727;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif; */
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc,
+    0 7px 0 #ccc, 0 8px 0 #ccc,
+    0 9px 0 #ccc, 0 10px 0 #ccc,
+    0 11px 0 #ccc, 0 12px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+#first-head:hover{
+    /* color: #f86d72; */
+    /* text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc,
+    0 7px 0 #ccc, 0 8px 0 #ccc,
+    0 9px 0 #ccc, 0 10px 0 #ccc,
+    0 11px 0 #ccc, 0 12px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.carousel{
+   
+
+    border-radius: 10px;
+
+}
+
+
